@@ -1,0 +1,13 @@
+Pen test basic commands - Kali Linux
+🔐 Important Legal Note
+Network sniffing without permission is illegal under IT Act (India) and cyber laws globally.
+Use only for:
+Cybersecurity labs
+Ethical hacking practice
+Your own network audits
+sudo tcpdump -i eth0 - capture all traffic on an interface
+sudo tcpdump -i wlan0 -w capture.pcap - capture and save to a file
+sudo tcpdump -i eth0 tcp port 80 - capture only http traffic
+sudo tcpdump -i eth0 host 192.168.1.10 - capture traffic from specific IP
+sudo tcpdump -i eth0 tcp - capture only tcp packets
+
